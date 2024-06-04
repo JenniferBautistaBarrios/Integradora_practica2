@@ -16,7 +16,7 @@ EJEMPLO:
 ---
 
 Esto es similar a un tag de < HR > en HTML.
-3. Párrafos (PARAGRPAHS)
+<h3 tabindex="-1" class="heading-element" dir="auto">3. Párrafos (PARAGRPAHS)</h3>
 Son utilizados para por presentar grandes secciones de texto que secciones de la documentación del proyecto.
 EJEMPLO:
 
