@@ -1,34 +1,46 @@
-1q# Integradora_practica2
-Práctica de clase para comenzar a utilizar GitHub como herramienta para el desarrollo colaborativo , control de Versiones y documentación sdel proyecto integrador de la asignatura.
+# Integradora-Practica02 - 28/06/24
 
-# Encabezado de Nivel 1
-## Encabezado de Nivel 2
-### Encabezado de Nivel 3
-#### Encabezado de Nivel 4
-#### Encabezado de Nivel 5
-###### Encabezado de Nivel 6
-#######Encabezado de Nivel 7 (solo considera los primeros 6 niveles)
+En esta práctica aprenderemos a utilizar las herramientas Git y GitHub para el control de Versiones, Documentación, Desarrollo Colaborativo y Respaldo del Proyecto Integrador para la asignatura de Integradora I.
+
+## Comandos Básicos para la Documentación, utilizando el estándar de Markdown (md)
+Markdown es el estándar utilizado por Git y GitHub, para maquetar la documentación de proyectos, lo que permite a usuarios y colaboradores del proyecto entender el contexto y operación del mismo.
+
+### 1. Encabezados o Títulos (HEADERS) 
+Para poder realizar una buena documentación del proyecto debemos, distribuir correctamente los contenido, para poder delimitar o hacer énfasis (enfatizar) , es decir resaltar las secciones importantes, podemos utilizar los siguientes:
+
+**EJEMPLOS:**
+
+# Encabezado de Nivel 1 - Similar a H1 en HTML 
+## Encabezado de Nivel 2 - Similar a H2 en HTML 
+### Encabezado de Nivel 3 - Similar a H3 en HTML 
+#### Encabezado de Nivel 4 - Similar a H4 en HTML 
+##### Encabezado de Nivel 5 - Similar a H5 en HTML 
+###### Encabezado de Nivel 6 - Similar a H6 en HTML 
+####### Encabezado de Nivel 7 - Solo 6 son los niveles permitidos, a partir de este el maquetado será ignorado.
 
 ### 2. Separadores (SEPARATORS)
-Si desea marcar una separación más visual de contenidos pordemos utilizarlos indicando tres caractres de "-" continuos, en el maquetado
+<p align="justify">Si desea marcar una separación más visual de contenidos pordemos utilizarlos indicando tres caracteres de "-" continuos, en el maquetado.</p>
 
-EJEMPLO: 
+**EJEMPLO:** 
+
+Texto sección
 ---
+Después del separador. 
 
-*Esto es similar a un tag de < HR > en HTML.
 
-### 3. Párrafos (PARAGRPAHS)
-Son utilizados para por presentar grandes secciones de texto que describen detalladamente las secciones de la documentación del proyecto.
 
-EJEMPLO:
+### 3. Párrafos (PARAGRPAHS) - 04/06/24
+<p align="justify">Son utilizados para por presentar grandes secciones de texto que describen detalladamente las secciones de la documentación del proyecto.</p>
+
+**EJEMPLO:**
 
 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1  Este texto pertenece al párrafo 1  Este texto pertenece al párrafo 1  Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1  Este texto pertenece al párrafo 1  Este texto pertenece al párrafo 1  Este texto pertenece al párrafo 1.
 
- Este texto pertenece al párrafo 2  Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2
+Este texto pertenece al párrafo 2  Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2
 
- Lo que en una página utilizariamos usando la etiqueta < P >.
+Lo que en una página utilizariamos usando la etiqueta \<P>.
 
-También podemos aplicar estilos básicos de alineación : 
+También podemos aplicar estilos básicos de alineación: 
 
 Este párrafo está alineado a la izquierda por defecto Este párrafo está alineado a la izquierda por defecto Este párrafo está alineado a la izquierda por defecto Este párrafo está alineado a la izquierda por defecto Este párrafo está alineado a la izquierda por defecto Este párrafo está alineado a la izquierda por defecto
 
@@ -45,17 +57,17 @@ Este párrafo estará justificado utilizando la propiedad de alineación Este p�
 </p>
  
  ### 4. Texto Enfatizado  (BOLD, ITALIC, BOLD/ITALIC)
- Si el texto que deseamos enfatizar se encuentra de un párrafo, podemos utilizar algunos trucos para ubicarlos en la documentación 
+ <p align="justify">Si el texto que deseamos enfatizar se encuentra de un párrafo, podemos utilizar algunos trucos para ubicarlos en la documentación.</p>
 
 ##### Texto en Negrita (BOLD) 
 Para poder poner el texto en negrita, este deberá ser encerrado entre dobles **
 
-EJEMPLO:
+**EJEMPLO:**
 
 Texto  Texto Texto Texto Texto Texto **Texto Importante**  Texto  Texto Texto Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto  Texto Texto Texto Texto Texto
 
 ##### Texto en Cursiva (ITALIC)
-Algunas veces es necesario resaltar algunas secciones o textos en cursiva para que el lector detecte el texto importante, dentro del maquetado con el estándar Markdown lo podemos realizar ubicando el texto entre  * (asteríscos)
+<p align="justify">Algunas veces es necesario resaltar algunas secciones o textos en cursiva para que el lector detecte el texto importante, dentro del maquetado con el estándar Markdown lo podemos realizar ubicando el texto entre  * (asteríscos).</p>
 
 **EJEMPLO:**
 
@@ -63,18 +75,51 @@ Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Te
 
 ##### Texto en Negrita y Cursiva (BOLD & ITALIC)
 
-De igual manera podemos unir ammbos estilos  **Negrita** y *Cursiva* para resaltar los textos que consideremos importantes dentro de la documentación de nuestros proyectos de software, utilizando un triple * (asterísco)
 
+De igual manera podemos unir ammbos estilos  **Negrita** y *Cursiva* para resaltar los textos que consideremos importantes dentro de la documentación de nuestros proyectos de software, utilizando un triple * (asterísco).
+
+**EJEMPLO:**
 
 Texto Texto Texto Texto Texto ***Texto en Negrita y Cursiva*** Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto *Texto Cursivo* Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
 
 
 ##### Subrayado (UNDERLINE)
 
-Algunas veces necesitaremos subraya texto dentro de la documentación, para ello, si bien markdown no tiene un atajo o codificación rápida podemos utilizar el estilo que usa el estándar de HTML  usando el tag <u> y cerrando con </u>
+Algunas veces necesitaremos subraya texto dentro de la documentación, para ello, si bien markdown no tiene un atajo o codificación rápida podemos utilizar el estilo que usa el estándar de HTML  usando el tag \<ins> y cerrando con  \</ins>.
 
 **EJEMPLO:**
 
-Texto Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto *Texto Cursivo* Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto [<u>Texto subrayado</u>](#)
+Texto Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto *Texto Cursivo* Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto <ins>Texto Subrayado</ins> Texto.
 
- Texto.
+
+# Integradora - Practica03 - 11/06/24
+Continuamos con los comandos básicos de Git y Github para el maquetado de la documentación 
+
+### 5. Cuadros para Código o Reseñas (BLOCKQUOTES)
+
+Estos elementos son utilizados para resaltar instrucciones específicas para la instalación, configuración y/o inicialzación o mostrar secciones de código fuente. Se maqueta iniciando el texto con un símbolo de mayor que (\>)
+
+**EJEMPLO:**
+Para listar las carpetas y archivos en desde una terminal de sistema operativo Windows debemos ingresar el comando: 
+
+> C:/dir
+
+Después oprimimos la tecla  "Enter".
+
+También podemos ingresar textos multilínea
+
+**EJEMPLO:**
+
+>Aquí se ingresan un conjunto de instrucciones
+>para explicar al usuario, cómmo instalar el
+>software que hemos diseñado.
+
+Y si deseamos inclur viñetas para enlistar pasos podemos utilizar el caracter - dentro del texto a documentar.
+
+**EJEMPLO:**
+**Pasos para Instalar la Base de Datos:**
+> - Descargar MySQL Server del Sitio Oficial
+> - Instalar el Sistema Gestor de Bases de Datos, definiendo el puerto y contraseña para el usuario ***root***
+> - Descargamos el archivo de respaldo de la base de datos (.sql)
+> - Restauramos la Base de Datos usando el comando *mysql *
+>> C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql -u root -p password \< respaldo.sql
