@@ -75,4 +75,6 @@ Algunas veces necesitaremos subraya texto dentro de la documentación, para ello
 
 **EJEMPLO:**
 
-Texto Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto *Texto Cursivo* Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto <u>Texto Subrayado</u> Texto.
+Texto Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto *Texto Cursivo* Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto [<u>Texto subrayado</u>](#)
+
+ Texto.
