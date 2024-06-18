@@ -247,4 +247,5 @@ Dado que en el ejemplo pasado usando solo markdown no se puede realizar la fusi�
 #### 9.Imágenes 
 
 Si la documentación requiere de incorporar imágenes, equemas , modelos, fotografías, o cualquier representación gráfica, utilizaremos la estuctura de la ligas, maquetanto el nombore de la imagen entre corchetes con  un signo de admiración de cierre y la liga de referencia a la imagen usando parentesis. 
+![Imagen demostrativa](https://i.pinimg.com/736x/91/93/b1/9193b1011e9954b3f062181a6829351e.jpg)
 
